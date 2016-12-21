@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bootstrap</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+
+	<style>
+		#wrapper1 {
+			background: black;
+		}
+		#wrapper1 ul {
+			margin-left: 95px;
+		}
+		#wrapper1 a:hover{
+			color: white;
+			font-size: 400;
+			font-weight: 999;
+		}
+		#wrapper1 ul li:nth-child(8){
+			margin-left: 100px;
+		}
+		.wrapper2{
+			text-align:center;
+			background: purple;
+			height: 500px;
+			width: 100%;
+		}
+		@media(min-width: 768px){
+			#head{
+				min-height: 40px;
+			}
+		}
+
+		.container{
+			color: white;
+			padding-top: 150px;
+			background: purple;
+		}
+
+		.wrapper3{
+			position: relative;
+			height: 50px;
+			border-bottom: 1px solid grey;
+			width: 100%;
+		}
+
+		.wrapper3 ul{
+			position: absolute;
+			display: inline-block;
+			margin: 0 300px;
+		}
+
+		.wrapper3 ul li a{
+			color: grey;
+			font-weight: 999;
+		}
+
+		.intro{
+			text-align: center;
+			width: 100%;
+			background: white;
+			border-bottom: 1px solid grey;
+		}
+		
+		img{
+			width: 264px;
+			height: 368px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<script src="jquery.js"></script>
+	<script src="bootstrap.min.js"></script>
+
+	<div id ="wrapper1" class="navbar navbar-default navbar-fixed-top" >
+		<ul  id="head" class="nav navbar-nav">
+			<li><a href="">Bootstrap中文网</a></li>
+			<li><a href="">Bootstrap中文文档</a></li>
+			<li><a href="">Bootstrap4.0预览</a></li>
+			<li><a href="">Less教程</a></li>
+			<li><a href="">JQuery API</a></li>
+			<li><a href="">网站实例</a></li>
+			<li><a href="">前端高薪职位</a></li>
+			<li><a href="">关于</a></li>
+		</ul>
+	</div>
+
+	<div class="wrapper2">
+		<div class='container'>
+		        <h1>Bootstrap</h1>
+		        <h2>简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。</h2>
+		        <p class="masthead-button-links">
+		          <a class="btn btn-lg btn-primary btn-shadow" href="http://v3.bootcss.com/" target="_blank" role="button" onclick="_hmt.push(['_trackEvent', 'masthead', 'click', 'masthead-Bootstrap3中文文档'])">Bootstrap3中文文档(v3.3.5)</a>
+		        </p>
+		        <ul class="masthead-links">
+		          <li>
+		            <a href="http://v2.bootcss.com/" target="_blank" role="button" onclick="_hmt.push(['_trackEvent', 'masthead', 'click', 'masthead-Bootstrap2中文文档'])">Bootstrap2中文文档(v2.3.2)</a>
+		          </li>
+		        </ul>
+		</div>
+	</div>
+
+	<div class="wrapper3">
+		<ul class="nav navbar-nav">
+			<li><a href="">Bootstrap技术交流群：318630708</a> </li>
+			<li><a href=""> Bootstrap问答社区</a> </li>
+			<li><a href="">新浪微博：@Bootstrap中文网</a></li>
+		</ul>
+	</div>
+
+
+	<div class="wrapper4">
+		<div class='intro'>
+	        <h2>Bootstrap相关优质项目推荐</h2>
+	        <p>这些项目或者是对Bootstrap进行了有益的补充，或者是基于Bootstrap开发的</p>
+	     </div>
+		<div >
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><img src="1.jpeg" alt=""></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><img src="2.jpeg" alt=""></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><img src="3.jpeg" alt=""></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><img src="4.jpeg" alt=""></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><img src="1.jpeg" alt=""></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><img src="2.jpeg" alt=""></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><img src="3.jpeg" alt=""></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><img src="4.jpeg" alt=""></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><img src="1.jpeg" alt=""></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><img src="2.jpeg" alt=""></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><img src="3.jpeg" alt=""></div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><img src="4.jpeg" alt=""></div>
+		</div>
+	</div>
+
+
+	
+</body>
+</html>
